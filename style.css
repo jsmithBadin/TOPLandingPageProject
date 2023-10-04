@@ -6,10 +6,28 @@ body {
   font-family: Arial, Impact, "Gill Sans", sans-serif;
 }
 
+ul{
+  list-style:none;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
 .header{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
 }
 
+.title{
+  display:flex;
+  justify-content: space-between;
+}
