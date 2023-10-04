@@ -32,6 +32,11 @@ a {
   justify-content: space-between;
 }
 
+.header-title {
+  font-weight: extra-bold;
+  font-size: 48px;
+}
+
 .header-text,
 a {
   color: #E5E7EB;
