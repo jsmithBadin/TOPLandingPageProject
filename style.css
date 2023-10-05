@@ -29,11 +29,28 @@ a {
 
 .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 8px 0px;
+}
+
+.header-main {
+  display: flex;
+  justify-content:center;
+  gap: 50px
+}
+
+.header-main-image{
+  max-width: 525px;
+}
+.header-main-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 525px;
+  gap: 12px;
 }
 
 .header-title {
-  font-weight: extra-bold;
+  font-weight: 700;
   font-size: 48px;
 }
 
