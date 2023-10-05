@@ -46,15 +46,17 @@ button {
 
 .header-main {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   gap: 50px;
+  margin: 100px;
 }
 
-.header-main-image{
+.header-main-image {
   max-width: 525px;
 }
-.header-main-text{
+
+.header-main-text {
   display: flex;
   flex-direction: column;
   max-width: 525px;
