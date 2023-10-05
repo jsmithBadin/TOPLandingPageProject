@@ -79,3 +79,20 @@ a {
   font-weight: bold;
   font-size: 24px;
 }
+
+.main-body {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.footer {
+  background-color: #1F2937;
+}
