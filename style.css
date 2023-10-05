@@ -21,6 +21,17 @@ a {
   color: #F9FAF8;
 }
 
+button {
+  max-width: 150px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -36,7 +47,8 @@ a {
 .header-main {
   display: flex;
   justify-content:center;
-  gap: 50px
+  align-items: center;
+  gap: 50px;
 }
 
 .header-main-image{
