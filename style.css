@@ -61,6 +61,7 @@ img {
 
 .header-main-image {
   max-width: 525px;
+  flex-shrink: 0;
 }
 
 .header-main-text {
@@ -102,16 +103,26 @@ a {
 
 .card-holder {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
   flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card-holder-A, .card-holder-B {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   gap: 25px;
 }
 
 .card {
   display: flex;
-  flex: 1;
+  flex: 1 1 0;
   flex-direction: column;
   max-width: 250px;
+  min-width: 150px;
 }
 
 .cards-title {
