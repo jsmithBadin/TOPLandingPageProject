@@ -1,8 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #1F2937;
-  color: #F9FAF8;
+  background-color: #1C3144;
+  color: #f3f7f0;
   font-family: Arial, Impact, "Gill Sans", sans-serif;
 }
 
@@ -18,13 +18,13 @@ ul {
 
 a {
   text-decoration: none;
-  color: #F9FAF8;
+  color: #f3f7f0;
 }
 
 button {
   max-width: 150px;
-  background-color: #3882F6;
-  color: #F9FAF8;
+  background-color: #11b5e4;
+  color: #f3f7f0;
   font-size: 18px;
   font-weight: bold;
   border: none;
@@ -35,7 +35,7 @@ button {
 img {
   max-height: 100%;
   max-width: 100%;
-  border: 2px solid #3882F6;
+  border: 2px solid #11b5e4;
   border-radius: 15px;
 }
 
@@ -90,7 +90,7 @@ a {
 
 .main-body {
   display: flex;
-  background-color: #ffffff;
+  background-color: #f3f7f0;
   flex-direction: column;
 }
 
@@ -99,6 +99,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .card-holder {
@@ -124,14 +126,14 @@ a {
   align-items: center;
   max-width: 250px;
   min-width: 150px;
-  color: #1f2937;
+  color: #1C3144;
 }
 
 .cards-title {
-  color: #1f2937;
+  color: #1C3144;
   font-size: 36px;
   font-weight: 800;
-  margin: 40px;
+  margin-bottom: 40px;
 }
 
 .card-text {
@@ -141,7 +143,7 @@ a {
 
 .quote-block {
   background-color: #E5E7EB;
-  color: #1f2937;
+  color: #1C3144;
   padding: 75px 400px;
 }
 
@@ -168,16 +170,16 @@ a {
   justify-content: space-around;
   margin: 75px 375px;
   padding: 50px 50px;
-  background-color: #3882f6;
-  color: #F9faf8;
+  background-color: #11b5e4;
+  color: #f3f7f0;
   border-radius: 6px;
 }
 
 .signup-text-container{
   display: flex;
   flex-direction: column;
-  background-color: #3882f6;
-  color: #F9faf8;
+  background-color: #11b5e4;
+  color: #f3f7f0;
   gap: 5px;
 }
 
@@ -192,5 +194,9 @@ a {
 
 .footer {
   display: flex;
-  
+  background-color: #1F2937;
+  justify-content: center;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 40px
 }
