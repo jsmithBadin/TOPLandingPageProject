@@ -167,19 +167,30 @@ a {
   flex-direction: row;
   justify-content: space-around;
   margin: 75px 375px;
-  padding: 25px 50px;
+  padding: 50px 50px;
   background-color: #3882f6;
   color: #F9faf8;
   border-radius: 6px;
 }
 
 .signup-text-container{
+  display: flex;
+  flex-direction: column;
   background-color: #3882f6;
   color: #F9faf8;
+  gap: 5px;
 }
 
-.signup
+.signup-title {
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.signup-text {
+  font-size: 18px;
+}
 
 .footer {
-  background-color: #1F2937;
+  display: flex;
+  
 }
