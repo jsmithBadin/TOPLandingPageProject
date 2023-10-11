@@ -162,7 +162,23 @@ a {
   align-self: flex-end;
 }
 
+.newsletter-signup-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 75px 375px;
+  padding: 25px 50px;
+  background-color: #3882f6;
+  color: #F9faf8;
+  border-radius: 6px;
+}
 
+.signup-text-container{
+  background-color: #3882f6;
+  color: #F9faf8;
+}
+
+.signup
 
 .footer {
   background-color: #1F2937;
